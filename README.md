@@ -56,3 +56,9 @@ echo(All_Objects($max,'Triangle',$points_x,$points_y));
 >> 4.1. x => Кордината x для точки 3<br> 
 >> 4.2. y => Кордината y для точки 3<br> 
 > 5. text => Строка для вывода красивого результата со встроиными HTML элементами.<br>
+
+Пример простого вызова функции Triangle:<br>
+```php
+//php code 
+$Triangle = Triangle($points_x,$points_y);
+```
