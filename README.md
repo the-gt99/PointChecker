@@ -15,13 +15,13 @@ $max = $Line['distance'];
 echo(All_Objects($max,'Line',$points_x,$points_y));
 ```
 после вызова функции в ответ приходит масив cсо следущими ключами:
-1. distance => Максимальная не округленная дистанция между двумя точками.
-2. round => Максимальная округленная дистанция между двумя точками.
-3. point_1 => 
-  3.1 x
-4. point_2
-  4.1 y
-5. text
+>1.distance => Максимальная не округленная дистанция между двумя точками.
+>2. round => Максимальная округленная дистанция между двумя точками.
+>3. point_1 => 
+>>3.1 x
+>4. point_2
+>>4.1 y
+>5. text
 
 
 
@@ -37,12 +37,3 @@ $Triangle = Triangle($points_x,$points_y,1);
 $max = $Triangle['area'];
 echo(All_Objects($max,'Triangle',$points_x,$points_y));
 ```
-
-
-+ ul
-++ ol
-+ + ol
-
- 1. ol
- * ul
- * ul
