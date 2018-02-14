@@ -37,3 +37,11 @@ $Triangle = Triangle($points_x,$points_y,1);
 $max = $Triangle['area'];
 echo(All_Objects($max,'Triangle',$points_x,$points_y));
 ```
+
+
+1. ol
+  1. ol
+    1. ol
+      1. ol 
+2. ol
+2. ol - всё равно 3
