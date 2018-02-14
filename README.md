@@ -1,6 +1,6 @@
 # PointChecker
 
-###Три функции (**Line**,**Triangle**,**Square**). <br>
+### Три функции (**Line**,**Triangle**,**Square**). <br>
 
 **Line** - имеет следущие параметры активации ($points_x,$points_y,$all_Line). <br>
 Где $points_x - это масив X кординат всех точек; <br>
