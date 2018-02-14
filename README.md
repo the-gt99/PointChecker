@@ -15,3 +15,15 @@ echo(All_Objects($max,'Line',$points_x,$points_y));
 ```
 
 
+**Triangle** - имеет следущие параметры активации ($points_x,$points_y,$all_Triangle). <br>
+Где $points_x - это масив X кординат всех точек; <br>
+$points_y - это масив Y кординат всех точек; <br>
+$all_Triangle - это параметр принимающий значения (1/0). При активации ($all_Line = 1) функция заполнит масив free_arr и позволит в позже найти все линии максиальной длинны. <br>
+
+Сделать это можно следующим кодом:
+```php
+//php code 
+$Triangle = Triangle($points_x,$points_y,1);
+$max = $Triangle['area'];
+echo(All_Objects($max,'Triangle',$points_x,$points_y));
+```
