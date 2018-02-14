@@ -7,9 +7,11 @@ $all_Line - это параметр принимающий значения (1/0
 
 Сделать это можно следующим кодом:
 
-`$Line = Line($points_x,$points_y,1);`
+```php
+//php code 
+$Line = Line($points_x,$points_y,1);
+$max = $Line['distance'];
+echo(All_Objects($max,'Line',$points_x,$points_y));
+```
 
-`$max = $Line['distance'];`
-
-`echo(All_Objects($max,'Line',$points_x,$points_y));`
 
