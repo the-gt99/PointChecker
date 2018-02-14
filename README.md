@@ -14,6 +14,13 @@ $Line = Line($points_x,$points_y,1);
 $max = $Line['distance'];
 echo(All_Objects($max,'Line',$points_x,$points_y));
 ```
+после вызова функции в ответ приходит масив cсо следущими ключами:
+1. distance
+2. round
+3. point_1
+4. point_2
+5. text
+
 
 
 **Triangle** - имеет следущие параметры активации ($points_x,$points_y,$all_Triangle). <br>
